@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>L1R Юридические услуги | Решение правовых вопросов</title>
+    <meta name="description" content="Профессиональная юридическая помощь. Решаем любые правовые вопросы с гарантией результата.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+
+    <header class="header">
+        <div class="container">
+            <div class="header-content">
+                <a href="#" class="logo">
+                     logo
+                </a>
+                
+                <button class="mobile-menu-btn" id="mobileMenuBtn">
+                    <i class="fas fa-bars"></i>
+                </button>
+                
+                <nav class="nav" id="nav">
+               
+                    <a href="tel:+77777777777" class="phone">
+                        <i class="fas fa-phone-alt"></i> +7 (777) 777-77-77
+                    </a>
+                </nav>
+            </div>
+        </div>
+    </header>
+
+
+    <section class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-text">
+                    <h1 class="hero-title">минимализм</h1>
+                    <p class="hero-subtitle">Text</p>
+                    
+                    <div class="stats">
+                        <div class="stat-item">
+                            <div class="stat-value">89%</div>
+                            <div class="stat-label">Lorem ipsu</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">34</div>
+                            <div class="stat-label">Lorem ipsum dolor sit amet</div>
+                        </div>
+                        <div class="stat-item">
+                            <div class="stat-value">18</div>
+                            <div class="stat-label">Lorem ipsum dolor sit amet. 
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="hero-form">
+               
+                    <h3 class="form-title">Оставьте контакты</h3>
+<form id="consultationForm">
+    <div class="form-group">
+        <label for="name" class="form-label">Ваше имя</label>
+        <input type="text" id="name" name="name" class="form-control" required>
+    </div>
+    <div class="form-group">
+        <label for="phone" class="form-label">Телефон</label>
+        <input type="tel" id="phone" name="phone" class="form-control" required>
+    </div>
+
+    <button type="submit" class="submit-btn pulse-animation">
+        <i class="fab fa-whatsapp"></i> Отправить в WhatsApp
+    </button>
+</form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="countdown">
+        <h4>До окончания акции осталось:</h4>
+        <div id="timer">
+          <div class="timer-item">
+            <span id="days" class="timer-number">00</span>
+            <span class="timer-label">дней</span>
+          </div>
+          <div class="timer-item">
+            <span id="hours" class="timer-number"></span>
+            <span class="timer-label">часов</span>
+          </div>
+          <div class="timer-item">
+            <span id="minutes" class="timer-number">00</span>
+            <span class="timer-label">минут</span>
+          </div>
+          <div class="timer-item">
+            <span id="seconds" class="timer-number">00</span>
+            <span class="timer-label">секунд</span>
+          </div>
+        </div>
+      </div>
+
+    <section class="slider-section">
+        <div class="container">
+            <h2 class="section-title">Наши преимущества</h2>
+            
+            <div class="slider-container">
+                <div class="slider" id="slider">
+                    <div class="slide">
+                        <img src="/images/images (2).jpg" alt="Юридическая консультация" class="slide-img">
+                        <div class="slide-content">
+                            <h3 class="slide-title">Профессиональные программисты</h3>
+                            <p class="slide-text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatum, modi.</p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="/images/images (2).jpg" alt="Судебный процесс" class="slide-img">
+                        <div class="slide-content">
+                            <h3 class="slide-title">Frontend специалисты</h3>
+                            <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="slide">
+                        <img src="/images/images (2).jpg" alt="Конфиденциальность" class="slide-img">
+                        <div class="slide-content">
+                            <h3 class="slide-title">Полная конфиденциальность</h3>
+                            <p class="slide-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi accusamus non cupiditate debitis dignissimos suscipit culpa illum recusandae, laboriosam at dolor eaque animi quam ab iste sapiente reprehenderit natus molestias!</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="slider-nav">
+                    <button class="slider-btn" id="prevBtn"><i class="fas fa-chevron-left"></i></button>
+                    <button class="slider-btn" id="nextBtn"><i class="fas fa-chevron-right"></i></button>
+                </div>
+                
+                <div class="slider-dots" id="sliderDots"></div>
+            </div>
+        </div>
+    </section>
+
+    <div class="block trust-triggers">
+        <h3>Триггеры доверия</h3>
+        
+        <div class="trust-grid">
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <i class="fas fa-award"></i>
+                </div>
+                <h4>Сертификаты</h4>
+                <p>Наши официальные сертификаты и лицензии</p>
+                <div class="certificates">
+                    <img src="https://via.placeholder.com/150x200?text=Сертификат+1" alt="Сертификат 1">
+                    <img src="https://via.placeholder.com/150x200?text=Сертификат+2" alt="Сертификат 2">
+                </div>
+            </div>
+            
+
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <i class="fas fa-briefcase"></i>
+                </div>
+                <h4>Успешные кейсы</h4>
+                <p>Реализованные проекты с результатами</p>
+                <div class="cases">
+                    <div class="case-item">
+                        <div class="case-logo" style="background-color: #f0f0f0;">Лого 1</div>
+                        <p>+150% конверсии</p>
+                    </div>
+                    <div class="case-item">
+                        <div class="case-logo" style="background-color: #e0e0e0;">Лого 2</div>
+                        <p>+300 посетителей/день</p>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="trust-item">
+                <div class="trust-icon">
+                    <i class="fas fa-users"></i>
+                </div>
+                <h4>Наши клиенты</h4>
+                <p>Компании, которые нам доверились</p>
+                <div class="clients">
+                    <div class="client-logo" style="background-color: #f5f5f5;">Клиент 1</div>
+                    <div class="client-logo" style="background-color: #eeeeee;">Клиент 2</div>
+                    <div class="client-logo" style="background-color: #e5e5e5;">Клиент 3</div>
+                    <div class="client-logo" style="background-color: #f0f0f0;">Клиент 4</div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="block workflow">
+        <h3>Схема работы</h3>
+        <p class="subtitle">Прозрачный процесс от заявки до результата</p>
+        
+        <div class="steps">
+            <div class="step">
+                <div class="step-number">1</div>
+                <h4>Заявка</h4>
+                <p>Оставляете заявку или звоните нам</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">2</div>
+                <h4>Консультация</h4>
+                <p>Обсуждаем детали и ваши пожелания</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">3</div>
+                <h4>Договор</h4>
+                <p>Заключаем официальный договор</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">4</div>
+                <h4>Разработка</h4>
+                <p>Создаем сайт согласно ТЗ</p>
+            </div>
+            
+            <div class="step">
+                <div class="step-number">5</div>
+                <h4>Результат</h4>
+                <p>Сдаем готовый проект и обучаем</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="block reviews">
+        <h3>Отзывы клиентов</h3>
+        <p class="subtitle">Реальные мнения наших заказчиков</p>
+        
+        <div class="reviews-slider">
+            <div class="review">
+                <div class="review-header">
+                    <div class="review-avatar">L </div>
+                    <div class="review-author">
+                        <h4>Lorem ipsum dolor sit.
+
+                        </h4>
+                        <p>Lorem ipsum, dolor sit amet </p>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate amet quisquam veritatis dolorum vero adipisci iste saepe nesciunt. Quae, earum!</p>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="review">
+                <div class="review-header">
+                    <div class="review-avatar">I</div>
+                    <div class="review-author">
+                        <h4>Lorem ipsum dolor </h4>
+                        <p>Lorem ipsum dolor sit amet.</p>
+                    </div>
+                </div>
+                <div class="review-content">
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Laborum, doloremque. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Libero, praesentium! </p>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star-half-alt"></i>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="review">
+                <div class="review-header">
+                    <div class="review-avatar">L i</div>
+                    <div class="review-author">
+                        <h4>Lorem, ipsum.</h4>
+                        <p>Lorem, ipsum dolor.
+                        </p>
+                    </div>
+                </div>
+                
+                <div class="review-content">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolor molestiae porro modi aspernatur nihil eius vel reiciendis odit voluptates quibusdam repella   </p>
+                    <div class="review-rating">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+
+        
+        
+        <div class="reviews-actions">
+            <div class="reviews-nav">
+                <button class="reviews-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="reviews-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+    </div>
+    <h3 class="form-title">Оставьте контакты</h3>
+    <form id="consultationForm">
+        <div class="form-group">
+            <label for="name" class="form-label">Ваше имя</label>
+            <input type="text" id="name" name="name" class="form-control" required>
+        </div>
+        <div class="form-group">
+            <label for="phone" class="form-label">Телефон</label>
+            <input type="tel" id="phone" name="phone" class="form-control" required>
+        </div>
+       
+        <button type="submit" class="submit-btn pulse-animation">
+            <i class="fab fa-whatsapp"></i> Отправить в WhatsApp
+        </button>
+    </form> 
+    <script src="script.js">
+    </script>
+</body>
+</html>
