@@ -1128,3 +1128,11 @@ font-size: 12px;
 @keyframes spin {
     to { transform: rotate(360deg); }
 }
+
+
+.footer {
+    background-color: gray;
+    color: white;
+    padding: 40px 0;
+    text-align: center;
+}
